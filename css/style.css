@@ -1,0 +1,2153 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* open-sans-300 - latin */
+@font-face
+ {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v34-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/open-sans-v34-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v34-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v34-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v34-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v34-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+
+
+
+
+
+  /* ------------------------------------Universal Tags Start --------------------------------------------- */
+
+*,*::after,*::before
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background-color:var(--whitecontent);
+  font-family:'Open Sans';
+  
+}
+.contener
+{
+  width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+.container2
+{
+  width: 1170px;
+  margin: auto;
+}
+p
+{
+  font-size: 14px;
+}
+a
+{
+  text-decoration: none;
+}
+h1,h2,H3,H4,H5,h6
+
+{
+  font-family:  'Roboto';
+  font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.readaerro a
+{
+  color: var(--yellowcontent);
+  color: #f0a830;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  
+}
+.ma
+{
+   margin: auto;
+}
+
+.d-flex
+{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-right: -15px;
+  margin-left: -15px; */
+}
+.ourvolupad
+{
+  padding-top:90px;
+  padding-bottom: 50px;
+}
+.spb
+{
+  justify-content: space-between;
+}
+ul li
+{
+  list-style: none;
+}
+ul,ol
+{
+  list-style-type: none;
+}
+.padtb
+{
+  padding: 100px 0;
+}
+.martb
+{
+  margin: 100px 0;
+}
+.textalign
+{
+   text-align: center;
+}
+.headpad40
+{
+  padding-bottom: 40px;
+}
+.heading1
+{
+  font-family: 'Roboto';
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+.mt25
+{
+  margin-top: 25px;
+}
+.mt30
+{
+  margin-top: 30px;
+}
+.mt20
+{
+  margin-top: 20px;
+}
+.mb20
+{
+  margin-bottom: 20px;
+}
+html
+{
+  scroll-behavior:smooth;
+  transition: 5s;
+}
+.ptb80
+{
+  padding: 80px 0;
+}
+.fundh4
+{
+  padding: 10px 15px;
+  color:white;
+  background-color: var(--lowblackcontent);
+  font-size: 20px;
+}
+.row 
+{
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+/*----------------------- ROOT Start ------------------------ */
+:root
+{
+  --blackcontent:black;
+  --whitecontent:rgb(255, 255, 255);
+  --yellowcontent:#f0a830;
+  --redcontent:#eb593b;
+  --lowblackcontent:#333333;
+  --secblackcontent:#666666;
+  --secbgcontent: #f2f2f2;
+  --whitecolo:#ffffff;
+} 
+
+/*----------------------- ROOT End ------------------------  */
+
+
+
+
+/* -----------------------------------Universal Tags End---------------------------------------------- */
+
+
+
+
+
+/* ------------------------------BANNER START---------------------------------------------- */
+
+.item1
+{
+  position: relative;
+}
+.item2 .bannercontent
+{
+  color: var(--blackcontent);
+  font-weight: bold;
+  text-align: left;
+  
+}
+.item3 .bannercontent
+{
+  color: var(--blackcontent);
+  font-weight: bold;
+  text-align: right;;
+
+}
+.item3 img{
+  width: 100%;
+}
+.bannercontent 
+
+{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  color: var(--whitecontent);
+  
+}
+.bannercontent p
+{
+  width: 750px;
+  margin:0;
+  display: block;
+  font-weight: 600;
+  margin: 0 0 10px;
+  padding-top: 30px;
+  font-size: 14px;
+}
+.loginbtn a
+{
+ color: var(--whitecontent);
+ font-weight: bold;
+ border: none;
+ font-size: 14px;
+ background-color: var(--yellowcontent);
+ padding: 10px 20px;
+ letter-spacing: 1px;
+ /* margin: 20px; */
+ cursor: pointer;
+ border-radius: 3px;
+}
+.bannercontent span 
+{
+  margin-top: 30px;
+  vertical-align:middle;
+  display: inline-block;
+  white-space: nowrap;
+  margin-bottom: 0;
+  padding: 6px 12px;
+}
+
+.owl-theme .owl-dots
+{
+  bottom: 30px;
+  width: 100%;
+  position: absolute;
+}
+
+.owl-theme .owl-dots .owl-dot span
+{
+    background-color:  var(--redcontent)!important;
+    opacity: 0.7;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span
+{
+    background-color:  var(--redcontent)!important;
+    opacity: 1;
+}
+
+
+
+ 
+/* ------------------------------BANNER END------------------------------------------------ */
+
+
+/* --------------------------------header start--------------------------- */
+.mainhead
+{
+  z-index: 50;
+  width: 100%;
+  background-color: var(--lowblackcontent);
+  position: fixed;
+  
+}
+.header
+{
+  
+  height: 70px;
+  
+}
+
+.header-menu li
+{
+  cursor: pointer;
+  padding: 0 15px;
+  display: block;
+  line-height: 20px;
+  /* align-items: center; */
+  
+}
+.header-menu .active a
+{
+  color: var(--yellowcontent);
+  transition: .5s;
+}
+
+
+.header-menu li a
+{
+  color: var(--whitecontent);
+}
+.header-menu .DONETBTN a:hover
+{
+  color: var(--whitecontent);
+}
+.header-content
+{
+  
+  align-items: center;
+  font-family:'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  color: var(--whitecontent);
+  justify-content: space-between;border-top: none;
+  
+}
+.header-content li.active,
+.header-content li:hover a
+{
+  color: var(--yellowcontent);
+  transition: .5s;
+
+}
+
+.header-content .DONETBTN a 
+{
+  /* position: absolute; */
+  align-items: center;
+  z-index: 50;
+  font-family:'Open Sans';
+  font-size: 14px;
+  color: var(--whitecontent);
+  background-color: var(--yellowcontent);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  border-radius: 3px; 
+}
+
+/* --------------------------------header end--------------------------- */
+
+
+
+
+/* ------------------------ Section Slider Start ----------------------- */
+
+.main_img{
+  width: 25%;
+}
+.services_text{
+  background-color: var(--yellowcontent);
+  padding: 80px 15px;
+  color: var(--whitecontent);
+}
+.services_text:hover{
+  background-image: url(../img/380x45UU0x1.jpg);
+  background-size: cover;
+}
+ .bg1:hover{
+background-image: url(../img/380x450x2.jpg);
+background-size: cover;
+
+}
+.bg2:hover{
+  background-image: url(../img/380x450x3.jpg);
+  background-size: cover;
+
+}
+.bg3:hover{
+  background-image: url(../img/380x450x4.jpg);
+  background-size: cover;
+
+}
+.services_text img{
+  padding-bottom: 15px;
+}
+.services_text p{
+  padding-top: 15px;
+  font-size: 14px ;
+  line-height: 24px;
+  font-weight: 600;
+}
+.services_text h4{
+  line-height: 25px;
+  font-size: 20px;
+}
+.main_img .bg1{
+  background-color: var(--redcontent);
+}
+.main_img .bg2{
+  background-color: var(--lowblackcontent);
+}
+.mainp
+{
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+
+}
+
+/* -----------------------Make a child smile CSS start ---------------------------*/
+.makesmilesection
+{
+  padding: 80px;
+}
+.smileimg,.smilecontent
+{
+  width: 50%;
+
+}
+.smilecontent
+{
+  padding:0 15px;
+}
+.smileimg
+{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  /* vertical-align:middle; */
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 585px;
+  height:333px;
+  overflow: hidden;
+}
+.smileimg img
+{
+  width: 100%;
+  height: 100%;
+}
+.smilecontent h3
+{
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-align: start;
+  color: var(--lowblackcontent);
+   width: 555px;
+  /* text-shadow:0px 0px 2px black; */
+
+}
+.smilep,.smilep2
+{
+  padding: 15px 0 0;
+  width: 555px;
+  height: 87px;
+  line-height: 24px;
+  font-size: 14px;
+
+}
+
+.makesmile .readmore a
+{
+  font-family:'Open Sans';
+  font-size: 14px;
+  color: var(--whitecontent);
+  background-color: var(--yellowcontent);
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.readmore
+{
+  padding-top: 30px;
+}
+/* -----------------------Make a child smile CSS end ---------------------------*/
+
+/* ------------------------ Section slider end ------------------------- */
+
+/* <!---------------------------- Our  Causes Start ---------------------------> */
+
+.mainhead2
+  {
+    width: 100%;
+    background-color:var(--secbgcontent);
+    height: 839px;
+  }
+  .causecontent h2
+  {
+     font-size: 35px;
+     line-height: 40px;
+  }
+  .ourcaimng
+  {
+      
+      padding: 0 0 40px;
+  }
+ .ourtags
+ {
+  width: 360px;
+  height: 246px;
+   padding: 0 15px 30px;
+  
+ }
+.ourrow .our1,.our2,.our3
+{
+  float: left;
+ 
+}
+.our1,.our2,.our3
+{
+  padding: 0 15px;
+  width: 390px;
+  height: 575px;
+}
+.ourshadow
+{
+  box-shadow:0 15px 15px -8px rgba(0,0,0,0.4);
+  
+ }
+ .ourrow img
+ {
+  width: 360px;
+  border-bottom: 5px solid var(--yellowcontent);
+ }
+ .ourul
+ {
+  margin: 40px 0 0;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 24px;
+  
+ }
+.ourul  li:first-child
+{
+  margin-right: 20px;
+}
+.ourul li:last-child span
+{
+  color: #f0a830;
+}
+.ourtitle
+{
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 15px;
+}
+
+
+.ourp
+{
+  padding: 15px  0 0;
+  width: 330px;
+  height: 87px;
+  font-size: 14px;
+  color: var(--secblackcontent);
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+       margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif, Arial, Verdana, 'Trebuchet MS';
+}
+a.btn
+{
+  background-color: var(--yellowcontent);
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  color: var(--whitecontent);
+  position: relative;
+  transition: .4s;
+}
+a.btn::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--yellowcontent);
+  transition: .4s;
+}
+a.btn::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--yellowcontent);
+  transition: .4s;
+}
+a.btn:hover::before, a.btn:hover::after
+{
+  width: 100%;
+}
+/* .ourdonate a.btn:hover
+{
+  background-color: var(--secbgcontent);
+  color: var(--yellowcontent);
+
+} */
+a.btn:hover
+{
+  /* background-color: var(--secbgcontent); */
+  background-color: transparent;
+  color: var(--yellowcontent);
+}
+.ourdonate
+{
+  justify-content: center;
+  margin-top: 25px;
+}
+
+
+/* ----------------------- Syria Css Start------------------------ */
+
+.syria
+{
+  width: 100%;
+  height:695px;
+  
+}
+.syriadiv .syriaimg
+{
+    background-image: url(../img/syriaimg.jpg);
+      /* width: 951px; */
+    width: 50%;
+    height: 695px;
+    padding: 0 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.syriacon
+{
+  width: 570px;
+  height: 691px;
+  padding: 80px 30px;
+}
+.syriacon h3
+{
+  width: 510px;
+  height: 33px;
+  font-size: 28px;
+  line-height: 33px;
+  
+}
+.syriah3 a
+{
+  color: var(--lowblackcontent);
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.syriacon p
+{
+  padding: 15px 0 0;
+  margin: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Open Sans', sans-serif, Arial, Verdana, 'Trebuchet MS';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.syriaul
+{
+  padding-left: 0;
+  margin-bottom: 0;
+  display: table-cell;
+  
+}
+
+.listimg
+{
+  display: table-cell;
+    float: left;
+    width: 65px;
+}
+.listcon
+{
+  display: table-cell;
+}
+
+.listcon h4
+{
+   display: block;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.listcon p
+{
+  padding-top: 10px;
+}
+
+
+/* ------------------------ Syria Css End -------------------------- */
+
+
+/* <!---------------------------- Our  Causes End ---------------------------> */
+
+
+
+
+
+/* --------------------Gallery CSS start------------------------------ */
+
+/* <!-- ---------------------------------------------------OUR GALLERY START--------------------------------------- --> */
+
+
+.gallery-sec
+{
+  width: 100%;
+  /* height: 896px; */  
+  background-color: var(--secbgcontent);
+}
+.galhead h2
+{
+   font-size: 35px;
+   line-height: 40px;
+  }
+  .galhead
+{
+    padding-bottom: 40px;
+}
+
+/* .galimgs img
+{
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  position: relative;
+}  */
+.galimgs
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 80px; */
+  
+}
+.galimgs2
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.gh1
+{
+  overflow: hidden;
+  width: 390px;
+  position: relative;
+  padding: 2px;
+  border-radius: 5px;
+}
+.gh1 img
+{
+  width:100%;
+  display: block;
+  margin: auto;
+}
+.galhover1
+{
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  position: absolute;
+  background: var(--redcontent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+  transform: scale(.2);
+  overflow: hidden;
+  background-size: contain;
+
+
+}
+.galhover1:hover
+{
+ background-color: rgba(242, 28, 28, 0.419);
+  transform: scale(1.5);
+  opacity: 1;
+  transform-origin: center center;
+
+}
+.galhover1:hover  .fa-solid.fa-magnifying-glass
+{
+  opacity: 10;
+}
+.galhover1 .fa-solid
+{
+  font-size: 18px;
+  color: #000000;
+}
+
+
+
+
+/* <!--  --------------------------------gallery part 2 Start -----------------------------------> */
+
+
+.educhild
+{
+  height: 560px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/asset\ 84.jpeg);  
+  margin: 10px 0;
+  padding: 180px 0;
+  background-position: center center;
+  box-sizing: border-box;
+
+  
+}
+.educon
+{
+  width: 912PX;
+  height: 193px;
+  
+}
+.educon  .heading1
+{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 65px;
+    color: var(--whitecontent);
+}
+.educon .edup
+{
+  padding-top: 15px;
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 14px;
+  width: 80%;
+  color: var(--whitecontent);
+
+
+}
+
+
+
+
+
+/* <!--  --------------------------------gallery part 2 End ---------------------------------- --> */
+
+
+
+
+
+
+/* ----------------------------------gallery part 3 Start-------------------------------------*/
+.fundhead h2
+{
+font-size: 35px;
+line-height: 40px;
+font-weight: 700;
+letter-spacing: 1px;
+color: var(--lowblackcontent);
+}
+.fundhead
+{
+  padding-bottom: 40px;
+}
+.fundmain
+{
+  position: relative;
+}
+.owl-nav
+{
+  position: absolute;
+  top: -60px;
+  right: 0;
+  padding-top: 0px;
+  
+}
+.owl-nav .owl-prev .fa-angle-left
+{
+  background-color: var(--yellowcontent);
+  margin: 0;
+  opacity: 1;
+  color: var(--secbgcontent);
+  font-size: 14px;
+  font-size: 14px;
+  padding: 8px 10px;
+  font-weight: 700;
+  zoom: 1;
+  
+}
+.owl-nav .owl-next .fa-angle-right
+{
+  font-size: 14px;
+  background-color: var(--yellowcontent);
+  margin: 0;
+  opacity: 1;
+  zoom: 1;
+  font-weight: 700;
+ color: var(--secbgcontent);
+  padding: 8px 10px;
+}
+.fundbox
+{
+  width: 360px;
+}
+
+.donetion
+{
+  padding: 10px;
+  background-color:#444444;
+  color: var(--lowblackcontent);
+  font-family: 'Open Sans', sans-serif, Arial, Verdana, 'Trebuchet MS';
+    font-weight: 400;
+  line-height: 24px;
+
+}
+.fundbox li:first-child
+{ 
+  margin-right: 20px;
+  
+}
+.fundbox li
+{
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: var(--secbgcontent);
+  display: inline-block;
+}
+.fundbox li:last-child span
+{
+  color: var(--yellowcontent);
+}
+.fundcon
+{
+  padding: 0 15px 30px 15px;
+  background-color: var(--redcontent);
+}
+
+.fundp
+{
+  margin: 0;
+  padding-top: 15px;
+  display: block;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif, Arial, Verdana, 'Trebuchet MS';
+  color: var(--secbgcontent);
+  font-weight: 400;
+}
+.fundbtn
+{
+  margin-top: 25px;
+}
+.fundbtn a
+{
+  width: 138px;
+}
+
+
+/* ----------------------------------gallery part 3 End-------------------------------------*/
+
+
+/* <!-- ---------------------------------------------------OUR GALLERY END--------------------------------------- --> */
+
+
+
+
+/* <!---------------------------- CARE SENIOR CITIZEN SECTION START--------------------------> */
+
+/* section------------------ */
+.carciti 
+{
+   background-color: var(--secbgcontent);
+}
+.citizen
+{
+  padding: 0 15px;
+
+  
+
+}
+.citicon,.citiimg
+{
+  width: 50%;
+}
+.citicon .citibtn,p,h3
+{
+  padding:10px 15px;
+}
+.citicon h3
+{
+  font-size: 28px;
+  color: var(--lowblackcontent);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 33px;
+}
+.citiimg img
+{
+  width: 100%;
+}
+
+/* <!---------------------------- CARE SENIOR CITIZEN SECTION END--------------------------> */
+
+
+
+
+
+/* <!-- ------------------------  Care Counter Start -------------------------------- --> */
+
+.galcounter
+{
+  background-image: url(../img/asset\ 85.jpeg);
+  padding: 150px 0;
+  /* height: 510px; */
+  background-position: center;
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+
+}
+.counter1
+{
+  width: 25%;
+  padding: 0 15px;
+  color: var(--whitecolo);
+  
+  border-radius: 50%;
+
+}
+.counter1 img
+{
+  border-radius: 50%;
+  transition: .4s;
+  
+}
+.counter1:hover img
+
+{
+  outline:5px solid var(--redcontent); 
+  outline-offset: 5px;
+   
+   
+}
+.counterp
+{
+  margin: 20px 0 0;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 1px;
+  color: var(--whitecolo);
+  padding: 0;
+
+  
+  
+}
+.counterh4
+{
+  margin: 10px 0 0;
+  font-size: 20px;
+  
+}
+
+/* <!-- ------------------------  Care Counter End  -------------------------------- --> */
+
+
+
+
+
+/* <!----------------------------- Gallery Free Camp Start --------------------------> */
+
+.freecampsection
+{
+  background-color: var(--whitecolo);
+  width: 100%;
+}
+.freecamp
+{
+  /* margin: 0 95px; */
+  padding: 0 15px;
+  /* margin: auto; */
+}
+.freeh2img
+{
+  padding: 0 0 40px;
+}
+.freeh2img h2
+{
+   font-size: 35px;
+}
+.free1 
+{
+  width: 33.33%;
+  min-height: 1px;
+  padding: 0 15px;
+}
+.free1 img
+{
+  width: 100%;
+  padding: 0 0 20px;
+}
+.freebox1
+{
+  box-shadow: 0 12px 18px -6px rgba(0,0,0,0.4);
+}
+.free1:hover .freebox1
+{
+  box-shadow: none;
+  transition: .5s;
+  box-shadow: 0 0px 9px -6px rgba(0,0,0,0.4); 
+
+}
+.freecon h4
+{
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+   color: var(--lowblackcontent);
+}
+.freecon
+{
+  padding: 0 15px 30px 15px;
+}
+.freecon p
+{
+  padding-top:15px;
+}
+.freecon a
+{
+  padding-top: 10px;
+  color: var(--yellowcontent);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+
+/* <!----------------------------- Gallery Free Camp End  ---------------------------> */
+
+
+
+
+
+/* <!-- ------------------------- Homeless Section Start ------------------------------- --> */
+
+
+.homelesssection
+{
+  background-color: var(--secbgcontent);
+  position: relative;
+  height: 515px;
+}
+.container-fluid
+{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.homelessrow
+{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.hoemelessimg
+{
+  background-image: url(../img/asset\ 86.jpeg);
+  height: 594px;
+  position: absolute;
+  right: 0;
+  width: 50%; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.homelesscon
+{
+  padding: 80px 30px 80px 0px;
+  width: 50%;
+  height: 594px;
+}
+.homelesscon a
+{
+  font-size: 28px;
+  line-height: 33px;
+  color: var(--lowblackcontent);
+}
+.homelesscon h3
+{
+  padding: 0;
+}
+.homelesscon p
+{
+  /* padding-top: 15px; */
+  padding: 15px 0 0 0;
+}
+.homelessul
+{
+  margin-top: 25px;
+  padding-left: 0;
+  margin-bottom: 0;
+} 
+.homelessul li
+{
+  float: left;
+  width: 50%;
+}
+
+.homeulcon h4
+{
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--lowblackcontent);
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  display: inline-block;
+  width: 205px;
+}
+
+.homeulcon
+{
+  width: 205px;
+  display: table-cell;
+}
+
+.homeulimg
+{
+  float: left;
+  /* display: inline-block; */
+  width: 65px;
+}
+.homeulimg img
+{
+  width: 48px;
+  height: 48px;
+}
+.homelesscon p
+{
+  padding-top: 10px;
+  color: var(--secblackcontent);  
+}
+.homelessuldiv
+{
+  width: 270px;
+}
+.homeulli
+{
+  margin-top: 20px;
+}
+/* <!-- ------------------------- Homeless Section End  ------------------------------- --> */
+
+
+
+
+
+/* --------------------Gallery CSS End ------------------------------ */
+
+
+
+/* <!-- ---------------------------------- Video Section Start ----------------------------------------------------------------> */
+
+.videosection
+{
+  background-color: var(--whitecolo);
+  /* height: 150px; */
+
+}
+.videohead h2
+{
+  font-size: 35px;
+  line-height: 40px;
+
+}
+.videohead
+{
+  padding-bottom: 40px;
+}
+.videovideo .embed-responsive-item
+{
+  width: 1140px;
+  /* overflow: hidden; */
+  height: 624px;
+}
+.videovideo
+{
+  padding-bottom: 56.25px;
+
+}
+
+
+
+/* ---------------------------- video section 2 CSS Start ---------------------------------------  */
+.videosec2
+{
+  background-color: var(--secbgcontent);
+  width: 100%;
+
+}
+
+.video2head
+{
+  padding-bottom: 40px;
+}
+.video2head h2
+{
+   font-size: 35px;
+   line-height: 40px;
+}
+.vf1
+{
+  width: 33.33%;
+  padding: 0 15px;
+}
+/* .videofetu
+{
+  
+} */
+.videfcon
+{
+  display: table-cell;
+}
+.videfcon h4
+{
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700px;
+  letter-spacing: 1px;
+}
+
+.videfcon p,.readaerro
+{
+  padding: 10px 0 0;
+
+}
+.videofimg
+{
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  width: 64px;
+
+}
+.videofimg img
+{
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.vf1:hover .videofimg img
+{
+  outline:3px solid var(--redcontent); 
+  outline-offset: 5px;
+  
+}
+
+/* ---------------------------- video section 2 CSS End ---------------------------------------  */
+
+
+/* <!-- ---------------------------------- Video Section End  ----------------------------------------------------------------> */
+
+
+
+
+
+
+
+/* --------------------------------------------- Team Divs Start --------------------------------------------------------- */
+
+
+
+/* <!-- ---------------- Our Volunteers Start -------------------> */
+
+.ourvolu
+{
+  background-image: url(/img/asset\ 87.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourvoluheading h2
+{
+  font-size: 35px;
+  line-height: 40px;
+  color: var(--whitecolo);
+}
+.ourvoluheading
+{
+  padding:0 0 40px 0;
+}
+.ourvolurow
+{
+  margin: 0 -15px 0 -15px;
+}
+.ourvoluteamrow
+{
+  /* float: left; */
+  /* position: relative; */
+  min-height: 1px;
+  width: 100%;
+  padding: 0 15px 0 15px;
+}
+
+.ourvolubox1
+{
+  width: 290px;
+  height: 290px;
+  background-color: var(--whitecolo);
+  border-radius: 50%;
+  outline: solid 5px var(--yellowcontent);
+  
+}
+
+
+/* <!-- ---------------- Our Volunteers End ---------------------> */
+
+
+
+
+
+
+/* <!-- ------------------------------ Team Div Map Start --------------------------------> */
+
+
+
+.teamsection
+{
+  background-color: var(--whitecolo);
+}
+.teammap 
+{
+  padding: 0 15px;
+  width: 66.66%;
+}
+.teammap iframe
+{
+  width: 100%;
+  height: 570px;
+}
+.teamphone
+{
+  background-color: var(--lowblackcontent);
+  padding: 30px 20px;
+  /* width: 100%; */
+}
+.teamcontact
+{
+  width: 33.33%;
+  padding: 0 15px;
+  
+}
+.teamphone img
+{
+  vertical-align: middle;
+  
+}
+.teamphone h3
+{
+  font-size: 28px;
+  line-height: 33px;
+  margin-top: 20px;
+  color: var(--whitecolo);
+}
+
+.teamform
+{
+  background-color: var(--yellowcontent);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.05), 0 -19px 38px rgba(0, 0, 0, 0.16);
+  padding: 30px 30px;
+  /* margin-bottom: 20px; */
+}
+.form-input
+{
+  color: var(--whitecolo);
+  border: 1px solid var(--whitecolo);
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  padding: 0 20px 0 20px;
+
+
+}
+.form-textarea
+{
+   padding: 10px 20px 2px;
+   background-color: transparent;
+   width: 100%;
+   overflow: auto;
+   border: 1px solid var(--whitecolo);
+   font-family: inherit;
+   color: #ffffff;
+
+}
+.contactsub button
+{
+  padding: 10px 15px;
+  background-color: var(--whitecolo);
+  border-radius: 3px;
+  border: none;
+  color: var(--yellowcontent);
+  font-weight:bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  position: relative;
+  transition: .6s;
+
+}
+
+
+.contactsub button::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  /* background-color: var(--yellowcontent); */
+  background-color: var(--whitecolo);
+  transition: .5s;
+}
+.contactsub button::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  /* background-color: var(--yellowcontent); */
+  background-color: var(--whitecolo);
+  transition: .5s;
+}
+.contactsub button:hover::before, .contactsub button:hover::after
+{
+  width: 100%;
+}
+/* .ourdonate a.btn:hover
+{
+  background-color: var(--secbgcontent);
+  color: var(--yellowcontent);
+
+} */
+.contactsub button:hover
+{
+  /* background-color: var(--secbgcontent); */
+  background-color: transparent;
+  color: var(--whitecolo);
+}
+
+/* <!-- ------------------------------ Team Div Map Start --------------------------------> */
+
+
+/* --------------------------------------------- Team Divs End  --------------------------------------------------------- */
+
+
+
+
+
+
+
+/* <!-- ----------------------------------------------- Our Packages DIV Start ---------------------------------------------------------------------- --> */
+
+.ourpacksec
+{
+  background-color: var(--secbgcontent);
+
+}
+.ourpackhead h2
+{
+   font-size: 35px;
+   line-height: 40px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   color: var(--lowblackcontent);
+}
+.ourpackhead
+{
+  padding:0 0 40px 0;
+}
+.ourpackprice
+{
+  margin:   0 -15px 0 -15px;
+}
+.ourpack1
+{
+  width: 33.33%;
+  min-height: 1px;
+  padding: 0 15px 0 15px; 
+}
+.pack1con
+{
+  background-color: var(--whitecolo);
+  padding:30px 50px;
+  transition: .8s;
+  
+}
+.packhead p
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--lowblackcontent);
+    padding: 0;
+}
+.packhead p span
+{
+  font-size: 20px;
+}
+.packdetail h4
+{
+  font-size: 20px;
+  line-height: 25px;
+}
+.packp p
+{
+  padding: 0;
+}
+.ourpack1.active > *, .ourpack1.active .packhead p
+{
+  background-color: var(--redcontent);
+  color: var(--secbgcontent);
+  
+}
+.ourpack1:hover .pack1con
+{
+  transform: scale(1.1);
+  transition: .8s;
+  
+}
+
+.ourpack1.active a.btn
+{
+  background-color: var(--secbgcontent);
+  color: var(--yellowcontent);
+  position: relative;
+  /* border: none; */
+  transition: .4s;
+  font-weight: bold;
+}
+
+
+
+.ourpack1.active * a.btn::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  /* background-color: var(--yellowcontent); */
+  background-color: var(--whitecolo);
+  transition: .5s;
+}
+.ourpack1.active * a.btn::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  /* background-color: var(--yellowcontent); */
+  background-color: var(--whitecolo);
+  transition: .5s;
+}
+.ourpack1.active a.btn:hover:before,.ourpack1.active a.btn:hover:after
+{
+  width: 100%;
+}
+
+.ourpack1.active a.btn:hover
+{
+  background-color: transparent;
+  color: var(--whitecolo);
+}
+/* <!-- ----------------------------------------------- Our Packages DIV End   ---------------------------------------------------------------------- --> */
+
+
+
+
+
+
+
+
+
+/* <!-- ----------------------------------------------- Our Packages SECTION Start  ---------------------------------------------------------------------- --> */
+
+/* <!-- tth=team tesimonial head , ttd= team testimonial div --> */
+
+
+.teamtestimonial
+{
+  background-image: url(/img/asset\ 88.jpeg);
+  /* height: 100px; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.tth
+{
+  padding-bottom: 40px;
+
+}
+.tth h2
+{
+  font-size: 35px;
+  line-height: 40px;
+  color: var(--whitecolo);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.ttd
+{
+  color: #fff;
+  padding: 0 15px;
+}
+.towl-item
+{
+  width: 370px;
+}
+.tti1
+{
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  margin-bottom: 10px;
+
+}
+.tti1con
+{
+  border: 1px solid var(--yellowcontent);
+  padding: 120px 30px 50px 30px;
+}
+.tti1p span
+{
+  color: var(--yellowcontent);
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 5px;
+  letter-spacing: 0.5px;
+  
+}
+.tti1p 
+{
+  color: var(--whitecontent);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  padding: 0;
+}
+.ttp-pera
+{
+  padding: 0;
+  line-height: 24px;
+  /* position: relative; */
+}
+.tti1con img
+{
+  /* overflow: hidden; */
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  width: 100px !important;
+  height: 100px;
+  right: 0;
+  vertical-align: middle;
+  overflow-clip-margin: contant-box;
+  overflow: clip;
+
+}
+/* .teamtestimonial.teamtestimain.owl-dots-
+{
+  position: absolute;
+  top: 105%; */
+  /* bottom: 10px;
+}
+
+.teamtestimonial .owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot.active span
+{
+  background-color: var(--yellowcontent) !important;
+  border-radius: 0px !important;
+} */
+
+
+/* <!-- ----------------------------------------------- Our Packages SECTION End  ---------------------------------------------------------------------- --> */
+
+
+
+
+
+
+
+
+
+
+/* <!-- ---------------------------------------------- Our Latest News Section Start --------------------------------- --> */
+
+.newshead h2 {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--lowblackcontent);
+}
+
+.news1img {
+  width: 33.33%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.newsulpere{
+  /* padding-left: 0; */
+  /* margin-bottom: 0; */
+  margin-top: 0;
+  /* display: block; */
+  list-style-type: disc;
+  padding-inline-start: 40px;
+  display: inline-block;
+  padding: 0;
+  
+
+}
+
+.news1img img
+{
+  padding-bottom: 20px;
+}
+.newsul li:first-child  img
+{
+  vertical-align: middle;
+}
+.newsul li:nth-child(2)
+{
+  background-color: var(--redcontent);
+  padding: 10px;
+  width: 70px;
+  
+  list-style: none;
+}
+.newsul li:nth-child(2) p
+{
+  padding: 0;
+}
+.newsul a
+{
+  color: var(--whitecolo);
+}
+.newsul li
+{
+  display: list-item;
+}
+
+.newsul li:nth-child(2) span
+{
+  font-size: 30px;
+}
+.newspere1
+{
+  width: 360px;
+}
+
+
+
+.newsconcon
+{
+  padding-left: 20px;
+  display: table-cell;
+  width: 600px;
+  
+  
+}
+.newsconcon p
+{
+  padding-top: 10px;
+  text-align: left;
+  font-size: 14px;
+  font-family: 'open sans';
+}
+.newsconpere
+{
+  justify-content: space-between;
+}
+.newsconcon h4 a
+{
+  font-size: 24px;
+  line-height: 25px;
+  color: black;
+}
+.news1con
+{
+  margin-top: 20px;
+}
+
+/* <!-- ---------------------------------------------- Our Latest News Section   End --------------------------------- --> */
+
+
+/* =================================== Last Section Css Start  =========================== */
+
+.last-sec
+{
+  background-image: url(/img/asset\ 89.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#last-logo .item img
+{
+  width: 180px;
+  height: 100px;
+}
+
+
+#last-logo .owl-carousel .owl-dots {
+  display: block;
+}
+#last-logo .owl-theme .owl-dots
+{
+color: #fff;
+  bottom: -40px;
+ 
+}
+.owl-item .cloned .item
+{
+  display: none !important;
+}
+
+
+
+/* =================================== Last Section Css End  =========================== */
+
+
+
+
+/* <!-- ===================== Foooter CSS Start ==================================== --> */
+
+.footer-section
+{
+
+  background-color: var( --lowblackcontent); 
+  
+
+}
+.copyright-bg
+{
+
+  padding-top: 30px;
+}
+.copyright
+{
+  text-align: center;
+  border-top: 1px solid #444444;
+  padding-top: 20px;
+  color: var(--whitecolo);
+  letter-spacing: 0.5;
+
+}
+.copyright p
+{
+  padding: 0;
+  
+}
+.copyright p a
+{
+  padding: 0;
+}
+
+
+
+
+.f1,.f2,.f3,.f4 
+{
+  width: 25%;
+}
+.footer-row h5 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.footer-row .footer1-address-space {
+  margin-bottom: 15px;
+}
+.footer-row .footer2-address li:first-child, .footer-row .footer1-address li:first-child {
+  padding-right: 10px;
+  color: white;
+}
+.footer-row .footer1-address li {
+  display: table-cell;
+}
+.footer-row .footer1-address li p, .footer-row .footer1-address li p a {
+  color: #eeeeee;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+.content-ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.footer-row  .links li {
+  border-bottom: 1px solid #666666;
+  width: auto;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  list-style: none;
+}
+.footer-row .links li:before {
+  color: #ffffff;
+  content: "\f105";
+  font-family: Fontawesome;
+  font-size: 14px;
+  padding-right: 15px;
+}
+.footer-row .links li a {
+  color: #eeeeee;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+
+.footer-row .post-img {
+  display: table-cell;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-right: 15px;
+  opacity: 1;
+}
+
+
+
+.footer-row .post {
+  display: table-cell;
+}
+.footer-row .post p a {
+  color: #eeeeee;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.footer-row .footer-date {
+  margin-top: 5px;
+}
+.footer-row .footer-date ul {
+  display: inline-block;
+}
+
+.footer-row .footer-date-ul-1 {
+  padding-bottom: 10px;
+}
+.footer-row .footer-date-ul li:first-child {
+  padding-right: 1px;
+}
+
+.footer-row .footer-date-ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+.subscribe-form .subscribe-input {
+    background-color: transparent;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    height: 35px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.footer-row .footer1-icon {
+  margin-top: 3px;
+}
+.footer-row .footer1-icon li:first-child {
+  margin-left: 0;
+}
+.footer-row .footer1-icon li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* <!-- ===================== Foooter CSS End ====================================== --> */
+
